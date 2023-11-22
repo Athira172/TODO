@@ -1,0 +1,40 @@
+.todo {
+    background-image: url('https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-111253.jpg?w=740');
+
+    background-size: cover;
+
+    background-position: center;
+
+    height: 200vh;
+
+
+}
+
+.box {
+    width: 50%;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    overflow: scroll;
+}
+
+.inputAdd {
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+}
+
+i,
+.inputAdd {
+    cursor: pointer;
+}
+
+.compl {
+    text-decoration: line-through;
+    color: red;
+}
+
+input[type=checkbox]:checked+p.strikethrough {
+    text-decoration: line-through;
+    color: red;
+}
